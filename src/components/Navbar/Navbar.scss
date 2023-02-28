@@ -1,0 +1,94 @@
+
+
+.container2{
+    display: flex;  
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;   
+    height: 20px;
+    align-content: flex-end;
+    //border-top: 1px solid black;
+    box-shadow: 0px -20px 20px 0px rgba(119, 119, 119, 0.12);
+    
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;  
+    text-decoration: none;
+
+    
+}
+
+.usu{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.home{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+    background-image: url('../../assets/Primarios/nav-bar/home/homeDesactive/home.png');
+    &:active{
+        background-image: url('../../assets/Primarios/nav-bar/home/homeDesactive/home.png');
+    }
+
+}
+
+.map{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+    &:hover{
+        background-image:url('../../assets/Primarios/nav-bar/ubicaciones/mapaActive/mapa.png');
+    }
+
+}
+
+.pets{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+                
+    &:hover{
+            background-image:url('../../assets/Primarios/nav-bar/adopcion/mascotaActive/mascota.png');
+    }
+}
+.profile{
+    display: flex;   
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid  rgb(1, 116, 142);
+    text-decoration: none;
+
+    &:active{
+        border: 1px solid  rgb(245, 162, 18);
+        color: rgb(250 156 147);
+    }
+}
+
+.plus{
+    display: flex;    
+    width: 25px;
+    height: 70px;
+    text-decoration: none;    
+    font-size: 45px;
+    color: rgb(1 116 142);
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+
+    &:active{
+        color: rgb(250 156 147);
+        margin-bottom: 10px;
+    }
+}
